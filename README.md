@@ -2,7 +2,7 @@
 
 ## 1. 项目介绍
 
-本项目是 DAFormer (Domain Adaptive Transformer) 域自适应语义分割模型的 **PyTorch 简化实现版本**，旨在提供一个**不依赖 [MMSegmentation 框架](https://github.com/open-mmlab/mmsegmentation) **的清晰代码实现，便于学习和理解 DAFormer 的核心算法原理。
+本项目是 DAFormer (Domain Adaptive Transformer) 域自适应语义分割模型的 **PyTorch 简化实现版本**，旨在提供一个不依赖 [MMSegmentation 框架](https://github.com/open-mmlab/mmsegmentation) 的清晰代码实现，便于学习和理解 DAFormer 的核心算法原理。
 
 ### 1.1 关于 DAFormer
 
