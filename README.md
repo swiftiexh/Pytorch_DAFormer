@@ -53,10 +53,9 @@ Pytorch_DAFormer/
 │       ├── cityscapes.py           # Cityscapes 数据预处理脚本，将标签 ID 转换为训练 ID
 │       └── gta.py                  # GTA5 数据预处理脚本，生成 RCS 所需的类别索引
 ├── pretrained/
-│   └── mit_b5.pth                  # MiT-B5 预训练权重
+│   └── mit_b5.pth                  # MiT-B5 预训练权重（需自行下载）
 ├── work_dirs/
 │   └── gta2cs_daformer_rcs_fdthings/
-│       ├── iter_2000.pth           # 训练 2000 次迭代的模型检查点
 │       └── logs/                   # 训练和验证日志
 │           ├── train.json          # 训练过程中的损失和指标记录
 │           └── val.json            # 验证集上的评估结果
