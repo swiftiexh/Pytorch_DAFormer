@@ -18,7 +18,7 @@ DAFormer (Domain Adaptive Transformer) 是一种基于 Transformer 的域自适�
 - **模块化设计**: 数据集、模型、训练器等组件解耦，便于理解和修改
 - **详细注释**: 代码中包含详细的中文注释，帮助理解每个模块的作用和实现细节
 
-> **注**: 本项目作为 Jittor 框架迁移的前置工作，主要用于理解 DAFormer 算法逻辑。完整训练和性能评估请参考 Jittor_DAFormer 项目。
+> **注**: 本项目作为 Jittor 框架迁移的前置工作，主要用于理解 DAFormer 算法逻辑。完整训练和性能评估请参考 [Jittor_DAFormer](https://github.com/swiftiexh/Jittor_DAFormer) 项目。
 
 ## 2. 项目结构
 
@@ -121,7 +121,7 @@ python utils/convert_datasets/gta.py data/gta --nproc 8
 pip install -r requirements.txt
 ```
 
-> 部分依赖库（如`kornia==0.5.8`/`timm==0.3.2`）的安装逻辑中，会 “隐式触发” pip 安装 / 升级 torch，需要手动处理
+> 部分依赖库（如`kornia==0.5.8`/`timm==0.3.2`）的安装逻辑中，会 “隐式触发” pip 安装 / 升级 torch，需要手动处理。
 
 #### 4.2 安装 MMCV 库
 
